@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "ES6",
+      "outDir": "dist",
+      "rootDir": "src",
+      "strict": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "paths": {
+        "firmata": ["./node_modules/firmata"]
+      }
+    },
+    "include": ["src/**/*.ts"]
+  }
+  
